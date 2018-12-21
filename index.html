@@ -2,21 +2,86 @@
 <html lang="ja" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>ミニゲーム</title>
-    <link rel="stylesheet" href="css/index.css">
+    <title>Mysite</title>
+    <link rel="icon" href="img/basketball.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="subtitle">
-            MYAPP!!
+    <header class="orange_back">
+        <div class="container">
+            <h1>Mysite</h1>
+            <p>
+                簡単に遊べるミニゲーム<br>
+                ぜひ、遊んでみてね！！
+            </p>
+            <a href="index.html#features" class='btn'>一覧を見る<i class="fas fa-external-link-alt"></i></a>
+            <img src="img/basketball_background.jpg" alt="バスケをしている様子" width="480px" height="270px" >
         </div>
-        <ul class="items">
-            <li><a href="raffle.html" class="item">宝さがし</a></li>
-            <li><a href="raffle2.html" class="item">プッシュボタン</a></li>
-            <li><a href="fiveseconds.html" class="item">5seconds</a></li>
-            <li><a href="passwdjen.html" class="item">PasswordGenerator</a></li>
-            <li><a href="moziChecker.html" class="item">WordsChecker</a></li>
-        </ul>
-    </div>
+    </header>
+
+    <section id="features">
+        <div class="container">
+            <h1 class="section-title">ミニゲーム一覧</h1>
+
+            <section class="feature">
+                <div class="disc">
+                    <h1>宝さがし</h1>
+                    <p>
+                        複数のパネルから当たりのパネルを見つけるゲーム
+                    </p>
+                    <a href="raffle.html" class="item">宝さがし</a>
+                </div>
+            </section>
+            <section class="feature">
+                <div class="disc">
+                    <h1>おみくじボタン</h1>
+                    <p>
+                        ボタンを押して占いをしよう
+                    </p>
+                    <a href="raffle2.html" class="item">おみくじボタン</a>
+                </div>
+            </section>
+            <section class="feature">
+                <div class="disc">
+                    <h1>5seconds</h1>
+                    <p>
+                        5秒あてゲーム
+                    </p>
+                    <a href="fiveseconds.html" class="item">5seconds</a>
+                </div>
+            </section>
+            <section class="feature">
+                <div class="disc">
+                    <h1>PasswordGenerator</h1>
+                    <p>
+                        自動でパスワードを生成してくれる
+                    </p>
+                    <a href="passwdjen.html" class="item">PasswdG</a>
+                </div>
+            </section>
+            <section class="feature">
+                <div class="disc">
+                    <h1>WordsChecker</h1>
+                    <p>
+                        文字数を確認できるよ
+                    </p>
+                    <a href="moziChecker.html" class="item">WordsChecker</a>
+                </div>
+            </section>
+
+        </div>
+    </section>
+
+    <section class="call-to-action orange_back">
+        <div class="container">
+            <h1>色々触ってみてね</h1>
+            <a href="index.html#features" class='btn'>一覧を見る<i class="fas fa-external-link-alt"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy: miyazaki</p>
+    </footer>
 </body>
 </html>
